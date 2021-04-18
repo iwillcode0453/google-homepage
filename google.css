@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    width: 97%;
+    padding: 10px;
+}
+
+.links li {
+    margin-left: 10px;
+}
+
+.sign-in {
+    background-color: rgb(65 133 244);
+    color: white;
+    height: 30px;
+    width: 65px;
+    border-radius: 3px;
+    border: none;
+}
+
+.center-google {
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    text-align: center;
+    
+}
+
+.search-google {
+    
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    text-align: center;
+    background-color: transparent;
+    /* border: 1px solid rgba(166, 183, 255, 0.7); */
+    border-radius: 35px;
+    height: 40px;
+    width: 600px;
+    color: rgba(0,0,0,.87);
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.search-google:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.search-google::after {
+    opacity: 1;
+  }
+
+#google-input {
+    width: 85%;
+    height: 70%;
+    font-size: 16px;
+    border: none;
+    margin: 0 auto;
+    margin-top: 6px;
+    outline: none;
+}
+
+.search-google .mic {
+    width: 20px;
+    height: 20px;
+    /* position: relative;
+    top: 8px;
+    
+    right: 5px; */
+}
+
+#glass {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+#mic-one {
+    position: relative;
+    top: 8px;
+    right: 8px;
+}
