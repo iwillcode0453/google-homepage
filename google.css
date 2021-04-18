@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 13px;
+    font-family: arial, sans-serif;
 }
 
 .links {
@@ -20,12 +22,26 @@
 }
 
 .sign-in {
-    background-color: rgb(65 133 244);
+    background-color: #1a73e8;
     color: white;
     height: 30px;
     width: 80px;
     border-radius: 3px;
     border: none;
+    margin: 0px 0px 0px 8px;
+    font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: .25px;
+    line-height: 16px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 9px 23px;
+}
+
+.grid {
+    margin: 0px 8px;
+    margin-left: 15px;
 }
 
 .center-google {
@@ -83,12 +99,12 @@
 
 #glass {
     position: relative;
-    top: 10px;
-    left: 10px;
+    top: 14px;
+    left: 20px;
 }
 
 #mic-one {
     position: relative;
-    top: 8px;
-    right: 8px;
+    top: 10px;
+    right: 15px;
 }
